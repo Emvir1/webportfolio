@@ -1,0 +1,24 @@
+* {
+	margin: 0;
+	padding: 0;
+	border-sizing: border-box;
+}
+
+.space {
+
+	font-size: 60px;
+	color: orange;
+}
+
+.col-sm-6 {
+	margin-top: 10px;
+}
+
+#contact-us {
+	width: 250px;
+	height: 250px;
+}
+
+.d-flex {
+	display: flex;
+}
