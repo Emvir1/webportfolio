@@ -22,3 +22,8 @@
 .d-flex {
 	display: flex;
 }
+
+
+h1 {
+	margin-bottom: 10px;
+}
