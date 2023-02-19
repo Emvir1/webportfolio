@@ -10,6 +10,9 @@
 
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
 
+		<link rel="stylesheet" type="text/css" href="./index.css">
+		<link rel="stylesheet" type="text/css" href="./style.css">
+
 		<title>Capstone Activity</title>
 		
 
@@ -28,14 +31,15 @@
 			 <!-- Side Bar -->
 			 <div class="collapse navbar-collapse" id="navbarNav">
 			   <ul class="navbar-nav ml-auto">
+
+			   	 <li class="nav-item">
+			   	   <a class="nav-link" href="#landing">Landing</a>
+			   	 </li>
+				 <li class="nav-item">
+				 <a class="nav-link" href="#projects">Projects</a>
+				 </li>
 			     <li class="nav-item active">
 			       <a class="nav-link" href="#tools">Tools<span class="sr-only">(current)</span></a>
-			     </li>
-			     <li class="nav-item">
-			       <a class="nav-link" href="#projects">Projects</a>
-			     </li>
-			     <li class="nav-item">
-			       <a class="nav-link" href="#landing">Landing</a>
 			     </li>
 			     <li class="nav-item">
 			       <a class="nav-link" href="#contact">Contact Me</a>
@@ -44,80 +48,92 @@
 			 </div>
 			</nav>
 		</header>
+		<!-- Side Bar End -->
 
-		 
-		 <div class="container-fluid text-light">
-		 	<section>
-		 	<div class="row bg-light mt-5" id="landing">
+		 <!-- landing page -->
+		 <div class="container-fluid text-light" id="landing">
 
-		 		<div class="d-inline-block mt-5 col-md-6">
-
-		 		<img src="./images/landing1.jpg" class="rounded-circle img-fluid w-25">
-		 		<img src="./images/mypic1.jpg" class="rounded-circle img-fluid w-25">
-		 		<img src="./images/spaceship1.jpg" class="rounded-circle img-fluid w-25">
+		 	<div class="row bg-light mt-5">
+		 		<div class="d-inline-block mt-5 col-md-12 col-sm-12 text-center">
+		 		<img src="./images/formal1.jpg" class="rounded-circle img-fluid w-25">
 		 		<div class="text-dark text-center">
 		 			<h1 class="mt-5">I'm Emvir Rivera</h1>
 		 			<p>Full Stack Web Developer</p>
 		 			<p>Currently learning to be a better software developer</p>
 		 		</div>
-		 		<img src="./images/landing2.jpeg" class="rounded-circle img-fluid w-25">
-		 		<img src="./images/project1.jpg" class="rounded-circle img-fluid w-25">
-		 		<img src="./images/project2.jpg" class="rounded-circle img-fluid w-25">
-		 		</div>
-
-		 		<div class="d-inline-block mt-5 col-md-6 text-dark">
-		 			<h1>Skills</h1>
-		 			<ul class="list-group">
-		 				<li class="list-group-item">HTML</li>
-		 				<li class="list-group-item">CSS</li>
-		 				<li class="list-group-item">Bootstrap</li>
-		 				<li class="list-group-item">Git</li>
-		 			</ul>
-
-		 		</div>
-
-		 		
-		 	    </div>
-		 	   </section>
-
-		 	<section>
-		 		<h1 class="mx-auto text-center" id="projects">Project</h1>
-		 	<div class="row">
-		 		<div class="pt-3 pb-3 border-dark order-sm-2 col-sm-12 col-md-6 order-md-1">
-		 			<p class="text-justify">This project or activity is one of my favorite part
-		 			as this is the easiest to understand it is about labels tables and buttons.
-		 		    I really like to tinker with buttons that displays another tabs or buttons
-		 		    that has a lot of purpose. I am having trouble with designing as I do not like
-		 			designing. I like programs that has functions like button and navigation bars.</p>
-		 		</div>
-
-		 		<div class="pt-3 pb-3 border-dark order-sm-1 col-sm-12 col-md-6 order-md-2">
-		 			<img src="./images/myproject.png" class="img-fluid">
-		 		</div>
-		 	</div>
-		 	</section>
-
-		 	<div class="row">
-		 		<div class="pt-3 pb-3 border-dark order-sm-2 col-sm-12 col-md-6 order-md-2">
-		 			<p class="text-justify">This project or activity is like our portfolio today.
-		 			I studied at STI College Taft and is now currentlySTI College Pasay-Taft. 
-		 		    I studied for 4 years and got a Bachelor's Degree on
-		 			Information Technology. I worked at a BPO company for 3 years after studying.
-		 		    Hence, I cannot remember some of the teachings in College. Though I remember
-		 			using PHP and Jcreator as our tools in School. I want to learn more of this programming
-		 		    so I applied for Zuitt Training Bootcamp. Though the codes are pretty hard to remember one
-		 		    by one and their specific uses. Our Instructor is cheerful and approachable. Although I'm
-		 		    currently struggling to create this website I have now some basic knowledge on how some codes work.</p>
-		 		</div>
-
-		 		<div class="border-dark order-sm-1 col-sm-12 col-md-6 order-md-1">
-		 			<img src="./images/myproject2.png" class="img-fluid">
+		 	
 		 		</div>
 
 		 	</div>
-
-		 	<section>
 		 		
+		</div>
+
+		<div class="container-fluid justify-content-center">
+			<div class="row bg-light text-center">
+				<div class="d-inline-block mt-5 col-md-6 col-sm-12 text-dark">
+					<h1>Skills</h1>
+					<ul class="list-group">
+						<li class="list-group-item">HTML</li>
+						<li class="list-group-item">CSS</li>
+						<li class="list-group-item">Bootstrap</li>
+						<li class="list-group-item">Git</li>
+					</ul>
+				</div>
+				<div class="d-inline-block mt-5 col-md-6 col-sm-12 text-dark">
+					<h1>Education</h1>
+						<h3>2015-2019</h3>
+						<p>STI College Taft (Bachelor of Science in Information Technology)</p>
+						<h3>2011-2015</h3>
+						<p>St. Anthony School Malate, Manila (Secondary)</p>
+						<h3>Feb 2023 - April 2023</h3>
+						<p>Zuitt Coding Bootcamp</p>
+				</div>
+				
+			</div>
+			
+
+		</div>
+		<!-- End of landing page -->
+			
+			<!-- Projects page -->
+				<div class="container-fluid text-light">
+					<h1 class="mx-auto text-center" id="projects">Project</h1>
+				<div class="row">
+					<div class="pt-3 pb-3 border-dark order-sm-2 col-sm-12 col-md-6 order-md-1">
+						<p class="text-justify">This project or activity is one of my favorite part
+						as this is the easiest to understand it is about labels tables and buttons.
+					    I really like to tinker with buttons that displays another tabs or buttons
+					    that has a lot of purpose. I am having trouble with designing as I do not like
+						designing. I like programs that has functions like button and navigation bars.</p>
+					</div>
+
+					<div class="pt-3 pb-3 border-dark order-sm-1 col-sm-12 col-md-6 order-md-2">
+						<img src="./images/myproject.png" class="img-fluid">
+					</div>
+				</div>
+
+				<div class="row text-light">
+					<div class="pt-3 pb-3 border-dark order-sm-2 col-sm-12 col-md-6 order-md-2">
+						<p class="text-justify">This project or activity is like our portfolio today.
+						I studied at STI College Taft and is now currentlySTI College Pasay-Taft. 
+					    I studied for 4 years and got a Bachelor's Degree on
+						Information Technology. I worked at a BPO company for 3 years after studying.
+					    Hence, I cannot remember some of the teachings in College. Though I remember
+						using PHP and Jcreator as our tools in School. I want to learn more of this programming
+					    so I applied for Zuitt Training Bootcamp. Though the codes are pretty hard to remember one
+					    by one and their specific uses. Our Instructor is cheerful and approachable. Although I'm
+					    currently struggling to create this website I have now some basic knowledge on how some codes work.</p>
+					</div>
+
+					<div class="border-dark order-sm-1 col-sm-12 col-md-6 order-md-1">
+						<img src="./images/myproject2.png" class="img-fluid">
+					</div>
+				</div>
+				</div>
+			<!-- End of Projects page -->
+		 		
+
+			<!-- Tools Page -->
 		 	<div class="container-fluid bg-light table-bordered" >
 		 		<h1 class="text-dark mx-auto text-center" id="tools">Tools</h1>
 		 		
@@ -130,11 +146,11 @@
                         <img width="150" src="./images/logo-javascript.png"/>
                     </div>
                 </div>
-
 		 	</div>
-		 	</section>
+		 	<!-- End of Tools Page -->
 
-		 	<section>
+
+		 	<!-- Forms Start -->
 		 	<h1 class="text-light mx-auto text-center" id="contact">Contact Me</h1>
 		 	<div class="container-fluid text-light justify-content-center"> 
 
@@ -163,26 +179,21 @@
 		 			 		<div class="col-md-12 mt-5">
 		 			 			<button type="submit" class="btn btn-primary">Submit</button>
 		 			 		</div>
-
-
 		 			 	</form>
 		 			 </div>
 		 	</div>
-		 	</section>
-		 		  
-		 </div>
+		 	<!-- End of Forms Page -->
 
 
-
-
+		 	<!-- Start of Footer -->
 		 <footer class="text-center bg-light">
 		 	<span>Emvir</span>
 		    <span>|</span>
 		    <span>Rivera</span>
 		    <span>|</span>
 		    <span>&copy; Zuitt Training Bootcamp</span>
+		    <!-- End of Footer -->
 
-		 	
 
 		 </footer>
 		<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
